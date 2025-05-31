@@ -1,0 +1,53 @@
+model_name: "flux-dev"
+use_spatial_condition: true
+share_position_embedding: true
+use_share_weight_referencenet: false
+use_ip: false
+ip_local_path: null
+ip_repo_id: null
+ip_name: null
+ip_scale: 1.0
+use_lora: false
+data_config:
+  train_batch_size: 1
+  num_workers: 4
+  img_size: 512
+  img_dir: ./ByteMorph-6M-Demo/
+  grayscale_editing: false
+  zoom_camera: false
+  random_ratio: false # true # support multi crop preprocessing
+report_to: wandb
+train_batch_size: 1
+output_dir: ./train_log/ByteMorpher/
+max_train_steps: 1000000
+learning_rate: 1e-5
+lr_scheduler: constant
+lr_warmup_steps: 10
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 0.01
+adam_epsilon: 1e-8
+max_grad_norm: 1.0
+logging_dir: logs
+mixed_precision: "bf16"
+checkpointing_steps: 3000
+save_steps: [1000]
+checkpoints_total_limit: 3
+# tracker_project_name: lora_test
+# resume_from_checkpoint: checkpoint-1
+resume_from_checkpoint: latest
+gradient_accumulation_steps: 2
+rank: 16
+# single_blocks: "1,2,3,4"
+single_blocks: null
+double_blocks: null
+disable_sampling: false
+sample_save_steps: [1000]
+sample_every: 3000 # sample every this many steps
+sample_width: 512
+sample_height: 512
+sample_steps: 25
+sample_prompts:
+    - "The camera moves closer to the coral, and a small blue fish appears in the background."
+sample_src_image:
+    - "./assets/eval_example/src_1.png"

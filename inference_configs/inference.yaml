@@ -1,0 +1,33 @@
+model_name: "flux-dev"
+use_spatial_condition: true
+share_position_embedding: true
+use_share_weight_referencenet: false
+use_ip: false
+ip_local_path: null
+ip_repo_id: null
+ip_name: null
+ip_scale: 1.0
+use_lora: false
+data_config:
+  eval_batch_size: 1
+  num_workers: 0
+  img_size: 512
+  img_dir: ./ByteMorph-Bench/
+  grayscale_editing: false
+  zoom_camera: false
+  random_ratio: false
+report_to: wandb
+eval_batch_size: 1
+ckpt_dir: ./pretrained_weights/ByteMorpher/dit.safetensors
+output_dir: ./test_log/seedmorpher/
+logging_dir: logs
+mixed_precision: "bf16"
+rank: 16
+single_blocks: null
+double_blocks: null
+disable_sampling: false
+sample_width: 512
+sample_height: 512
+sample_steps: 25
+seed: 42
+cfg_scale: 3.5
