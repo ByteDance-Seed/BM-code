@@ -91,7 +91,7 @@ We follow the implementation details in our paper and release pretrained weights
 
 The Flux.1-dev VAE and DiT can be found [here](https://huggingface.co/black-forest-labs/FLUX.1-dev). The Google-T5 encoder can be found [here](https://huggingface.co/XLabs-AI/xflux_text_encoders). The CLIP encoder can be found [here](https://huggingface.co/openai/clip-vit-large-patch14).
 
-Please place then under [./pretrained_weights/](pretrained_weights/).
+Please place them under [./pretrained_weights/](pretrained_weights/).
 
 Your file structure should look like this:
 
