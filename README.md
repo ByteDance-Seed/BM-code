@@ -32,7 +32,7 @@
     <br>
     </br>
         <a href="https://arxiv.org/abs/2506.03107">
-        <img src='https://img.shields.io/badge/arXiv-XDyna-red' alt='Paper PDF'></a>
+        <img src='https://img.shields.io/badge/arXiv-Paper-red' alt='Paper PDF'></a>
         <a href='https://huggingface.co/datasets/ByteDance-Seed/BM-Bench'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Benchmark-yellow'></a>
         <a href='https://huggingface.co/datasets/ByteDance-Seed/BM-6M-Demo'>
