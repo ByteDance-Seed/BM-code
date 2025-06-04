@@ -31,6 +31,8 @@
     <sup>*</sup> denotes equal contribution
     <br>
     </br>
+        <a href="https://arxiv.org/abs/2506.03107">
+        <img src='https://img.shields.io/badge/arXiv-XDyna-red' alt='Paper PDF'></a>
         <a href='https://huggingface.co/datasets/ByteDance-Seed/BM-Bench'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Benchmark-yellow'></a>
         <a href='https://huggingface.co/datasets/ByteDance-Seed/BM-6M-Demo'>
@@ -55,7 +57,7 @@ This repo is the official pytorch implementation of ByteMorph, include training,
 
 ## 📢 News
 
-- **June 03, 2025:** We released the official [website](https://boese0601.github.io/bytemorph/), [dataset](https://huggingface.co/datasets/ByteDance-Seed/BM-6M), [benchmark](https://huggingface.co/datasets/ByteDance-Seed/BM-Bench), [online-demo](https://huggingface.co/spaces/Boese0601/ByteMorph-Demo), and [paper]() for ByteMorph.
+- **June 03, 2025:** We released the official [website](https://boese0601.github.io/bytemorph/), [dataset](https://huggingface.co/datasets/ByteDance-Seed/BM-6M), [benchmark](https://huggingface.co/datasets/ByteDance-Seed/BM-Bench), [online-demo](https://huggingface.co/spaces/Boese0601/ByteMorph-Demo), and [paper](https://arxiv.org/abs/2506.03107) for ByteMorph.
 
 
 
@@ -140,6 +142,15 @@ Please visit [this page](./ByteMorph-Eval/).
 If you find [ByteMorph]() useful for your research and applications, please cite ByteMorph using this BibTeX:
 
 ```BibTeX
+@misc{chang2025bytemorphbenchmarkinginstructionguidedimage,
+      title={ByteMorph: Benchmarking Instruction-Guided Image Editing with Non-Rigid Motions}, 
+      author={Di Chang and Mingdeng Cao and Yichun Shi and Bo Liu and Shengqu Cai and Shijie Zhou and Weilin Huang and Gordon Wetzstein and Mohammad Soleymani and Peng Wang},
+      year={2025},
+      eprint={2506.03107},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.03107}, 
+}
 ```
 
 
