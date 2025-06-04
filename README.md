@@ -53,6 +53,10 @@
 
 This repo is the official pytorch implementation of ByteMorph, include training, inference and evaluation. 
 
+## 📢 News
+
+- **June 03, 2025:** We released the official [website](https://boese0601.github.io/bytemorph/), [dataset](https://huggingface.co/datasets/ByteDance-Seed/BM-6M), [benchmark](https://huggingface.co/datasets/ByteDance-Seed/BM-Bench), [online-demo](https://huggingface.co/spaces/Boese0601/ByteMorph-Demo), and [paper]() for ByteMorph.
+
 
 
 ## 📜 Requirements
