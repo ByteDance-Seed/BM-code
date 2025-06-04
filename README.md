@@ -136,7 +136,7 @@ The DeepSpeed config file for training is [here](train_configs/deepspeed_stage2.
 ## Evaluation
 Please visit [this page](./ByteMorph-Eval/).
 
-## 🔗 BibTeX
+## 🔗 BibTeX Citation
 If you find [ByteMorph]() useful for your research and applications, please cite ByteMorph using this BibTeX:
 
 ```BibTeX
