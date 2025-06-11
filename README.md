@@ -142,14 +142,11 @@ Please visit [this page](./ByteMorph-Eval/).
 If you find [ByteMorph]() useful for your research and applications, please cite ByteMorph using this BibTeX:
 
 ```BibTeX
-@misc{chang2025bytemorphbenchmarkinginstructionguidedimage,
-      title={ByteMorph: Benchmarking Instruction-Guided Image Editing with Non-Rigid Motions}, 
-      author={Di Chang and Mingdeng Cao and Yichun Shi and Bo Liu and Shengqu Cai and Shijie Zhou and Weilin Huang and Gordon Wetzstein and Mohammad Soleymani and Peng Wang},
-      year={2025},
-      eprint={2506.03107},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.03107}, 
+@article{chang2025bytemorph,
+  title={ByteMorph: Benchmarking Instruction-Guided Image Editing with Non-Rigid Motions},
+  author={Chang, Di and Cao, Mingdeng and Shi, Yichun and Liu, Bo and Cai, Shengqu and Zhou, Shijie and Huang, Weilin and Wetzstein, Gordon and Soleymani, Mohammad and Wang, Peng},
+  journal={arXiv preprint arXiv:2506.03107},
+  year={2025}
 }
 ```
 
